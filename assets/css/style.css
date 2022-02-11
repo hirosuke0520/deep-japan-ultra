@@ -537,7 +537,8 @@ h1{
   margin: 0 auto;
 }
 
-.col1-2 img{
+.col1-2 a{
+  display: block;
   width: 40%;
   margin: 5px 20px;
 }
@@ -550,13 +551,13 @@ h1{
     width: 100%;
     margin: 10px auto;
   }
-  .col1-2 img{
+  .col1-2 a{
     width: 100%;
     margin: 20px auto;
   }
 }
 
-.col1-3 img{
+.col1-3 a{
   width: 30%;
   margin: 5px 18px;
 }
@@ -566,7 +567,7 @@ h1{
     display: block;
     text-align: center;
   }
-  .col1-3 img{
+  .col1-3 a{
     width: 45%;
     margin: 5px auto;
   }
