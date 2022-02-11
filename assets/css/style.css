@@ -788,12 +788,13 @@ h1{
   text-align: center;
   border: solid 2px #0085CA;
   margin: 0 30%;
-  padding: 24px 0 24px 50px;
 }
 
-.info p{
+.info a{
+  display: block;
   font-size: 1.2rem;
   color: #0085CA;
+  padding: 24px 0 24px 50px;
 }
 
 .info span{
@@ -816,6 +817,10 @@ h1{
 
 @media screen and (max-width: 768px){
   .info{
+    margin: 0;
+  }
+  
+  .info a{
     width: 100%;
     margin: 0 auto;
     padding: 20px 30px;
@@ -845,10 +850,12 @@ h1{
 .volunteers{
   background-color: white;
   margin: 0 30%;
-  padding: 20px 0 20px 50px;
 }
 
-.volunteers p{
+.volunteers a{
+  display: block;
+  text-align: center;
+  padding: 20px 0 20px 50px;
   font-size: 1.2rem;
   color: black;
   margin-bottom: 0;
@@ -874,6 +881,10 @@ h1{
 
 @media screen and (max-width: 768px){
   .volunteers{
+    margin: 0;
+  }
+
+  .volunteers a{  
     padding: 20px 10px;
     margin: 0 auto;
   }
