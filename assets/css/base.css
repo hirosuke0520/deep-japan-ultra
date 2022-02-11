@@ -64,4 +64,16 @@ a{
 	text-decoration: none;
 }
 
+@media screen and (min-width: 769px){
+	.hidden-sp{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.hidden-pc{
+		display: none;
+	}
+}
+
 /* =========================================================== */
