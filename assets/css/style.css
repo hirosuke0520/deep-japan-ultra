@@ -393,13 +393,15 @@ h1{
 .pc-wrapper .btn{
   margin-top: 30px;
   border: solid 1px white;
-  padding: 25px 0 25px 100px;
+
 }
 
 .pc-wrapper .btn a{
+  display: block;
   text-decoration: none;
   font-size: 1.5rem;
   text-align: center;
+  padding: 25px 0 25px 100px;
 }
 
 .pc-wrapper .btn a::after{
@@ -583,15 +585,20 @@ h1{
 
 .box1-2{
   background-color: #00667A;
+}
+
+.box1-2 a{
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 10px;
   padding: 15px 20px 50px;
 }
 
-.box1-2 h2{
-  font-size: 2rem;
-  margin-bottom: 10px;
+.box1-2 a>span{
+  font-size: 1.0rem;
 }
 
-.box1-2 p::after{
+.box1-2 a::after{
   content:"";
   display: inline-block;
   background-image: url(../../images/arrow_yellow.png);
@@ -646,11 +653,11 @@ h1{
   display: inline-block;
   border: solid 1px white;
   width: 30%;
-  padding: 10px 5px;
   margin: 0 10px;
 }
 
 .section03 .wrapper01 a{
+  padding: 10px 5px;
   display: block;
   text-align: center;
   text-decoration: none;
